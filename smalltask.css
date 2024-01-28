@@ -20,6 +20,8 @@ h1 {
   color: white;
   padding: 5px 0;
   margin-bottom: 40px;
+  text-align: center;
+  margin: auto;
 }
 .guess-game {
   text-align: center;
