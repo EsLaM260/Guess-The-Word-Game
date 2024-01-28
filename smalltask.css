@@ -12,9 +12,14 @@ body {
 h1 {
   text-align: center;
   padding: 20px;
-  margin: 0 0 50px;
+  margin: 0 0 30px;
   background-color: #3700b3;
   color: white;
+}
+.description{
+  color: white;
+  padding: 5px 0;
+  margin-bottom: 40px;
 }
 .guess-game {
   text-align: center;

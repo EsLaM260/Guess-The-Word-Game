@@ -1,7 +1,9 @@
 // setting game name
 let gameName = "Guess The Words";
+let description = "Predict the names of programming languages";
 document.title = gameName;
 document.querySelector("h1").innerHTML = gameName;
+document.querySelector(".description").innerHTML = description;
 document.querySelector("footer").innerHTML =`${gameName } Game Created by Eslam Mostafa`
 
 // Setting Game Option
@@ -15,7 +17,7 @@ let numberOfHints = 2;
 // manage words
 let wordToGuess = "";
 // const words = ["Create", "Update", "Delete", "Master", "Branch", "Mainly", "Elzero", "School"];
-const words = ["Eslam","Ali","Amir","Adam","mostafa","Hazem","Omar","Sara"];
+const words = ["HTML","Css","Javascript","php","kotlien","flutter","java","C++"];
 // عدد جروف الكلمه
 wordToGuess = words[Math.floor(Math.random() * words.length)].toLowerCase();
 // بتجيب الحروف بشكل دينمك علي حسب الكلمه
