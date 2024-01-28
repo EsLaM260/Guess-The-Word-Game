@@ -46,7 +46,7 @@ h1 {
         width: 40px;
         height: 40px;
         text-align: center;
-        font-size: 50px;
+        font-size: 35px;
         caret-color: var(--primary-color);
         background: white;
         border: none;
@@ -164,10 +164,19 @@ footer {
 @media (max-width:767px) {
   .guess-game{
     flex-direction: column;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     align-items: center;
   }
   .guess-game .game-area .inputs > div {
     justify-content: space-between;
+}
+.guess-game .game-area .inputs input {
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+
+}
+.guess-game .game-area .inputs > div span {
+  font-size: 20px;
 }
 }
